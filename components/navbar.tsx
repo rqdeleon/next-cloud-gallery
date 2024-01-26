@@ -2,7 +2,7 @@ import Image from "next/image"
 
 export default function Navbar(){
   return(
-    <div className="container mx-auto bg-slate-100 fixed z-50">
+    <div className="bg-slate-100 fixed z-50 w-full px-5">
       <div className="relative -mx-4 flex items-center justify-between">
         <div className="w-60 max-w-full px-4">
           <a href="https://mybranches.net" className="block w-full py-5">
@@ -19,7 +19,7 @@ export default function Navbar(){
             />
           </a>
         </div>
-        <div className="flex w-full items-center justify-between px-4">
+        <div className="w-full items-center justify-between px-4 hidden md:flex">
           <div>
             <nav
               className="absolute right-4 top-full w-full max-w-[250px] rounded-lg bg-white px-6 py-5 shadow dark:bg-dark-2 lg:static lg:block lg:w-full lg:max-w-full lg:shadow-none lg:dark:bg-transparent"

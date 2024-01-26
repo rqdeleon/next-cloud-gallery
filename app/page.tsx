@@ -6,10 +6,10 @@ import { Separator } from "@/components/ui/separator";
 export default async function Home() {
 
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between px-24">
+    <main className="">
       <Navbar />
       <Hero />
-      <h3 className=" text-3xl mt-10 font-semibold">Photo Tour</h3>
+      <h3 className="px-10 text-3xl mt-10 font-semibold">Photo Tour</h3>
       <Separator className="my-10"/>
       <Gallery />
     </main>

@@ -1,5 +1,4 @@
 import Image from "next/image"
-import { Copy } from "lucide-react"
 import {
   Dialog,
   DialogClose,
@@ -17,24 +16,26 @@ import { Button } from "./ui/button"
 export default function Hero(){
 
   return(
-  <section className=" py-36">
+  <section className="py-36 px-10">
     <div className="grid grid-cols-1 gap-12 w-full md:grid-cols-2">
       <div className="hero-content">
         <h1 className="mb-5 text-4xl font-bold text-dark dark:text-white sm:text-[42px] lg:text-[40px] xl:text-5xl">
           Ohana Hale Tagaytay
         </h1>
-        <p className="mb-8 max-w-[480px] text-base text-body-color dark:text-dark-6">
+        <p className="mb-8 w-full md:max-w-[480px] text-base text-body-color dark:text-dark-6">
         We invite you to our home away from home in Serin East for a whole new Tagaytay experience with your family and friends. Whether you would like to enjoy the city’s cool weather, comforting food or just simply stay home to relax, our one-of-a-kind place is a perfect choice.
         </p>
         <ul className="flex flex-wrap items-center">
           <li>
+      
             <a
               href="https://airbnb.com/h/ohanahaletagaytay"
-              className="inline-flex items-center justify-center rounded-md bg-primary px-6 py-3 text-center text-base font-medium text-white hover:bg-blue-dark lg:px-7"
+              className="inline-flex items-center justify-center rounded-md bg-slate-800 px-6 py-3 text-center text-base font-medium text-white hover:bg-blue-dark lg:px-7"
             >
               Book Now
             </a>
           </li>
+          
           <li>
           <Dialog>
       <DialogTrigger asChild>
