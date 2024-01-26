@@ -55,7 +55,7 @@ export default function Navbar(){
           <div className="hidden justify-end pr-16 sm:flex lg:pr-0">
             <a
               href="https://mybranches.net"
-              className="rounded-md bg-primary px-7 py-3 text-base font-medium text-white hover:bg-primary/90"
+              className="rounded-md bg-slate-800 px-7 py-3 text-base font-medium text-white hover:bg-primary/90"
             >
               Make This Landing Page Yours
             </a>
