@@ -41,7 +41,7 @@ export default function Hero(){
       <DialogTrigger asChild>
         <Button className="bg-white mx-5 p-5 text-lg text-slate-800 font-semibold border-4 border-slate-800 hover:bg-slate-300">Get Voucher</Button>
       </DialogTrigger>
-      <DialogContent className="sm:max-w-[425px]">
+      <DialogContent className="sm:max-w-[425px] bg-white">
         <DialogHeader>
           <DialogTitle>Subscribe</DialogTitle>
           <DialogDescription>

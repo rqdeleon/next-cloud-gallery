@@ -52,15 +52,15 @@ export default function Navbar(){
               </ul>
             </nav>
           </div>
-          <div className="hidden justify-end pr-16 sm:flex lg:pr-0">
+        </div>
+        <div className="flex justify-end pr-16 sm:flex">
             <a
               href="https://mybranches.net"
-              className="rounded-md bg-slate-800 px-7 py-3 text-base font-medium text-white hover:bg-primary/90"
+              className="rounded-md bg-slate-800 px-7 py-3 text-base font-medium text-white hover:bg-slate-800/90"
             >
               Make This Landing Page Yours
             </a>
           </div>
-        </div>
       </div>
     </div>
   )
